@@ -24,26 +24,62 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-  }
+}
 
 .navbar-links {
     display: flex;
     gap: 15px;
 }
 
-.navbar-right{
+.navbar-right {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-right: 40px;
 }
 
-.navbar-links a{
+.navbar-links a {
     text-decoration: none;
 }
 
-  .input-search {
+.input-search {
     padding: 5px 10px;
     border-radius: 4px;
     font-size: 14px;
-  }
+}
+
+.movie-description {
+    display: block;
+}
+
+.movie-content {
+    background-color: aqua;
+}
+
+.movie-content p {
+    margin: 20px;
+    text-align: left;
+}
+
+ul li span {
+    color: red;
+    font-weight: bold;
+}
+
+.btn-playnow {
+    background-color: red;
+    width: 280px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.btn {
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+    gap: 20px;
+
+}
